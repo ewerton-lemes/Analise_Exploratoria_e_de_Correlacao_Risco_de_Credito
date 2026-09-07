@@ -12,47 +12,47 @@ Baixada em 07/09/2026
 
 ### Variáveis na base de dados (metadados)
 
-Loan_ID: Identificador exclusivo atribuído a cada solicitação de empréstimo individual.
+**Loan_ID:** Identificador exclusivo atribuído a cada solicitação de empréstimo individual.
 
-Application_Date: Data exata em que a solicitação foi enviada.
+**Application_Date:** Data exata em que a solicitação foi enviada.
 
-Customer_Age: Idade do principal solicitante do empréstimo.
+**Customer_Age:** Idade do principal solicitante do empréstimo.
 
-Gender: Gênero informado pelo solicitante.
+**Gender:** Gênero informado pelo solicitante.
 
-Marital_Status: Estado civil do solicitante.
+**Marital_Status:** Estado civil do solicitante.
 
-Education_Level: Maior nível de escolaridade alcançado pelo solicitante.
+**Education_Level:** Maior nível de escolaridade alcançado pelo solicitante.
 
-Employment_Type: Situação profissional ou cargo corporativo do solicitante.
+**Employment_Type:** Situação profissional ou cargo corporativo do solicitante.
 
-Annual_Income: Renda anual verificada do solicitante, expressa em unidades monetárias padrão.
+**Annual_Income:** Renda anual verificada do solicitante, expressa em unidades monetárias padrão.
 
-Credit_Score: Pontuação numérica de crédito que avalia a capacidade de crédito do solicitante.
+**Credit_Score:** Pontuação numérica de crédito que avalia a capacidade de crédito do solicitante.
 
-Existing_Loans_Count: Número de empréstimos ativos ou preexistentes que o solicitante possui atualmente em instituições financeiras.
+**Existing_Loans_Count:** Número de empréstimos ativos ou preexistentes que o solicitante possui atualmente em instituições financeiras.
 
-Number_of_Dependents: Número de familiares ou dependentes legais que dependem da renda do solicitante.
+**Number_of_Dependents:** Número de familiares ou dependentes legais que dependem da renda do solicitante.
 
-Home_Ownership: Situação habitacional do solicitante.
+**Home_Ownership:** Situação habitacional do solicitante.
 
-Region: Localização geográfica ou continente de onde a solicitação foi enviada.
+**Region:** Localização geográfica ou continente de onde a solicitação foi enviada.
 
-Loan_Purpose: Principal finalidade para a qual o empréstimo está sendo solicitado.
+**Loan_Purpose:** Principal finalidade para a qual o empréstimo está sendo solicitado.
 
-Loan_Amount: Valor monetário total solicitado para o empréstimo.
+**Loan_Amount:** Valor monetário total solicitado para o empréstimo.
 
-Loan_Term_Months: Duração total do contrato de empréstimo, especificada em meses.
+**Loan_Term_Months:** Duração total do contrato de empréstimo, especificada em meses.
 
-Interest_Rate: Taxa percentual de juros associada ao empréstimo solicitado.
+**Interest_Rate:** Taxa percentual de juros associada ao empréstimo solicitado.
 
-Monthly_Installment: Valor calculado da parcela mensal para o pagamento do empréstimo.
+**Monthly_Installment:** Valor calculado da parcela mensal para o pagamento do empréstimo.
 
-Debt_to_Income_Ratio: Razão entre o total das obrigações mensais de dívida do solicitante e sua renda mensal bruta, expressa em porcentagem.
+**Debt_to_Income_Ratio:** Razão entre o total das obrigações mensais de dívida do solicitante e sua renda mensal bruta, expressa em porcentagem.
 
-Loan_Status: Resultado operacional da solicitação de empréstimo.
+**Loan_Status:** Resultado operacional da solicitação de empréstimo.
 
-Repayment_Status: Resultado histórico ou final de como o empréstimo está sendo pago.
+**Repayment_Status:** Resultado histórico ou final de como o empréstimo está sendo pago.
 
 ## Objetivos
 
