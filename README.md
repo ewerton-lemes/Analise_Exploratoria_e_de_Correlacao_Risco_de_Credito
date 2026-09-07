@@ -56,6 +56,17 @@ Baixada em 07/09/2026
 
 ## Objetivos
 
-Realizar análise exploratória dos dados;
+O objetivo desse projeto é responder a seguinte pergunta de negócio:
 
+**Quais características dos clientes e dos empréstimos estão associadas à aprovação ou rejeição de uma solicitação de crédito?**
+
+Para responder a essa pergunta, faremos inicialmente uma análise exploratória dos dados abordando as principais variáveis relacionadas a risco de crédito:
+
+**Perfil do Cliente:** Customer_Age, Education_Level, Employment_Type, Home_Ownership.
+
+**Perfil financeiro do cliente:** Annual_Income, Credit_Score, Debt_to_Income_Ratio, Existing_Loans_Count.
+
+**Características do empréstimo:** Loan_Amount, Loan_Term_Months, Interest_Rate, Monthly_Installment, Loan_Purpose.
+
+Depois dessa análise exploratória...
 
