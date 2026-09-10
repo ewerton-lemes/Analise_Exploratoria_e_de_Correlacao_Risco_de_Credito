@@ -108,7 +108,7 @@ O Information Value (IV) = 2,39 indica uma forte associação à rejeição.
 
 3. Credit Score e DTI, analisados conjuntamente, permitem identificar perfis distintos
 
-
+![Heatmap Credit Score x DTI](imagens/heatmap.png)
 
 
 
