@@ -1,4 +1,4 @@
-# Analise exploratória e de correlação aplicada a risco de Crédito
+# Análise de Risco de Crédito
 Análise exploratória, de associação e de correlação aplicada a dados de empréstimos e risco de crédito utilizando Excel.
 
 ## Sobre o Projeto
@@ -68,5 +68,53 @@ Para responder a essa pergunta, faremos inicialmente uma análise exploratória 
 
 **Características do empréstimo:** Loan_Amount, Loan_Term_Months, Interest_Rate, Monthly_Installment, Loan_Purpose.
 
-Depois dessa análise exploratória...
+Depois dessa análise exploratória, faremos uma análise de correlação entre as variáveis numéricas da base de dados.
+
+Após essa análise de correlação, faremos o cálculo do Information Value das variáveis que possuem maior poder preditivo em relação á rejeição ou aprovação do empréstimo.
+
+Em seguida calcularemos o R² (coeficiente de determinação) para avaliar a associação entre algumas variáveis.
+
+Por fim, vamos cruzar os dados de Credit_Score e Debt_to_Income (DTI) para verificar a taxa de rejeição combinando essas variáveis.
+
+## Principais Insights
+
+1. O comprometimento da renda está fortemente associado à rejeição
+
+| Faixa de DTI | Taxa de rejeição |
+|---|---:|
+| < 20% | 0,2% |
+| 20–30% | 0,2% |
+| 30–40% | 1,9% |
+| 40–50% | 4,4% |
+| 50–60% | 3,4% |
+| 60–70% | 12,0% |
+| 70–80% | 24,8% |
+| > 80% | **31,9%** |
+
+Além disso, o Information Value (IV) = 3,65, indicando forte poder de discriminação na amostra.
+
+2. O Crédit Score apresenta uma forte associado à rejeição.
+
+| Faixa de Credit Score | Taxa de rejeição |
+|---|---:|
+| < 600 | **41,5%** |
+| 600–649 | 9,2% |
+| 650–699 | 1,9% |
+| 700–749 | 0,4% |
+| 750–799 | 0,0% |
+| ≥ 800 | 0,0% |
+
+O Information Value (IV) = 2,39 indica uma forte associação à rejeição.
+
+3. Credit Score e DTI, analisados conjuntamente, permitem identificar perfis distintos
+
+
+
+
+
+
+
+
+
+
 
