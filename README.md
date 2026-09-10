@@ -152,9 +152,9 @@ Information Value: 0,362.
 
 ## Observação sobre os insights
 
-Acima estão listados os principais insights, os que estão diretamente relacionados à pergunta de negócio. As outras análise mencionadas nos Objetivos estão no arquivo juntamente com seu insights. A maioria deles são descritivos.
+Acima estão listados os principais insights, os que estão diretamente relacionados à pergunta de negócio. As outras análise mencionadas nos Objetivos estão no arquivo juntamente com seu insights estão na pasta https://github.com/ewerton-lemes/Analise_de_Risco_de_Credito/tree/main/analise. A maioria deles são descritivos.
 
-**Recomendações de negócio**
+## Recomendações de negócio
 
 1. Utilizar DTI como indicador central de capacidade de pagamento
 Como o DTI foi a variável com maior poder de discriminação entre aprovados e rejeitados, recomenda-se utilizá-lo como um dos principais indicadores na avaliação do comprometimento financeiro do solicitante.
