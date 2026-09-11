@@ -1,5 +1,5 @@
 # Análise de Risco de Crédito
-Análise exploratória, de associação e de correlação aplicada a dados de empréstimos e risco de crédito utilizando Excel.
+Análise exploratória, de associação e de correlação aplicada a dados de empréstimos e risco de crédito utilizando Excel visando responder uma pergunta de negócio.
 
 ## Sobre o Projeto
 
@@ -70,7 +70,7 @@ Para responder a essa pergunta, faremos inicialmente uma análise exploratória 
 
 Depois dessa análise exploratória, faremos uma análise de correlação entre as variáveis numéricas da base de dados.
 
-Após essa análise de correlação, faremos o cálculo do Information Value das variáveis que possuem maior poder preditivo em relação á rejeição ou aprovação do empréstimo.
+Após essa análise de correlação, faremos o cálculo do Information Value das variáveis que possuem maior poder preditivo em relação à rejeição ou aprovação do empréstimo.
 
 Em seguida calcularemos o R² (coeficiente de determinação) para avaliar a associação entre algumas variáveis.
 
@@ -130,7 +130,7 @@ As faixas de Credit Score e de DTI foram separadas dessa forma:
 
 O heatmap abaixo mostra a taxa de rejeição para cada combinação entre faixa de Credit Score e DTI.
 
-![Heatmap](https://raw.githubusercontent.com/ewerton-lemes/Analise_de_Risco_de_Credito//main/heatmap.png)
+![Heatmap](https://raw.githubusercontent.com/ewerton-lemes/Analise_de_Risco_de_Credito/main/heatmap.png)
 
 github.com/ewerton-lemes/Analise_de_Risco_de_Credito/blob/main/heatmap.png
 
@@ -152,7 +152,7 @@ Information Value: 0,362.
 
 ## Observação sobre os insights
 
-Acima estão listados os principais insights, os que estão diretamente relacionados à pergunta de negócio. As outras análise mencionadas nos Objetivos estão no arquivo juntamente com seu insights estão na pasta https://github.com/ewerton-lemes/Analise_de_Risco_de_Credito/tree/main/analise. A maioria deles são descritivos.
+Acima estão listados os principais insights, os que estão diretamente relacionados à pergunta de negócio. As outras análise mencionadas nos Objetivos estão no arquivo excel, juntamente com seu insights, que está na pasta https://github.com/ewerton-lemes/Analise_de_Risco_de_Credito/tree/main/analise. A maioria deles são descritivos.
 
 ## Recomendações de negócio
 
@@ -171,6 +171,11 @@ Como a finalidade apresentou diferenças relevantes nas taxas de rejeição, rec
 5. Utilizar os resultados como apoio à decisão, não como regras automáticas
 Os resultados identificam associações, e não relações causais. Antes de transformar esses padrões em regras de concessão de crédito, seria necessário validar os achados com dados adicionais e testar um modelo preditivo em dados fora da amostra.
 
+## Dashboard
+
+Na última aba da planilha que está no arquivo excel da pasta https://github.com/ewerton-lemes/Analise_de_Risco_de_Credito/tree/main/analise está um dashboard onde os insights podem ser vistos por meio de gráficos. Além disso há filtros para ver as informações, por exemplo, por gênero ou região do solicitante.
+
+![Dashboard](https://raw.githubusercontent.com/ewerton-lemes/Analise_de_Risco_de_Credito/main/imagens/dashboard.png)
 
 
 
